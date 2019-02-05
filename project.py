@@ -180,6 +180,8 @@ def showRestaurants():
 #Create a new restaurant
 @app.route('/restaurant/new/', methods=['GET','POST'])
 def newRestaurant():
+  if 'username' not in login_session:
+      return redirect('/login')
   if request.method == 'POST':
       newRestaurant = Restaurant(name = request.form['name'])
       session.add(newRestaurant)

@@ -24,4 +24,4 @@ Hosted on local host.
 
 ## License
 
-This project base code is originally provided by Udacity's Intro to Relational Databases Course Instructor Karl Krueger.
+This project base code is originally provided by Udacity's Authentication & Authorization: OAuth Course Instructor Gundega Dekena & Lorenzo Brown.
